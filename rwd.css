@@ -1,0 +1,98 @@
+html {
+  font-size: 16px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EFECCA;
+}
+
+header nav {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-left: 55%;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  clear: right;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul a {
+  color: #046380;
+}
+
+h1 {
+  font-size: 2rem;
+  background-color: #046380;
+  color: white;
+  height: 12rem;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: #002F2F;
+  padding-left: 1rem;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
+}
+
+article p {
+  padding: 0 1rem;
+}
+
+.form-section {
+  padding: 0.3rem 35% 0.3rem 10%;
+  min-width: 25rem;
+}
+
+fieldset {
+  padding-bottom: 1rem;
+}
+
+legend {
+  font-size: 1rem;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.required {
+  font-weight: bold;
+  color: red;
+}
+
+input[name=otherSuccessMeasures] {
+  border: none;
+  border-bottom: 1px solid grey;
+  background-color: #EFECCA;
+}
+
+input[name=otherSuccessMeasures]:focus {
+  background-color: white;
+}
+
+.submit-button {
+  padding-left: 70%;
+}
+
+footer {
+  background-color: #A7A37E;
+  color: #002F2F;
+  margin-top: 3rem;
+  padding: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
