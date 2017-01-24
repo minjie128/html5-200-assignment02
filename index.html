@@ -36,7 +36,7 @@
           <h3>About You</h3>
           <div class="form-group">
             <label for="fullName"><span class="required">* </span>Full Name</label>
-            <input type="text" class="form-control" id="fullName" name="name" required autofocus>
+            <input type="text" class="form-control" id="fullName" name="name" required>
           </div> 
           <div class="form-group">
             <label for="emailAddress"><span class="required">* </span>Email Address</label> 
@@ -71,7 +71,8 @@
           </div>             
           <div class="form-group">
             <label for="websiteAddress"><span class="required">* </span>Your Website</label>
-            <input type="url" class="form-control" id="websiteAddress" name="websiteURL" pattern="https?://.+" value="http://" required>
+            <input type="url" class="form-control" id="websiteAddress" name="websiteURL" pattern="https?://.+" placeholder="http://example.com" required>
+            <small id="urlHelp" class="form-text text-muted">Please include the http:// prefix</small>
           </div>
           <fieldset class="form-group">
             <legend>What metric(s) do you use to measure the success of your website?</legend>
@@ -86,8 +87,8 @@
             </label>
             <label class="checkbox-inline">
               <input type="checkbox" class="form-check-input" name="successMeasures" id="successMeasureOption4" value="byOthers"> Other: 
-                <input type="text" name="otherSuccessMeasures" placeholder="Please specify...">
-            </label>            
+            </label>       
+            <input type="text" name="otherSuccessMeasures" placeholder="Please specify...">
           </fieldset>
           <div class="form-group">
             <label for="visitorsNumber">How many unique visitors does your website receive daily?</label>
